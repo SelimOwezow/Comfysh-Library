@@ -103,3 +103,35 @@ h1 {
   text-decoration: none;
   color:white
 }
+.dropdown {
+  position:relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  top: 100%; /* Positions it directly below the 'Categories' text */
+  left: 0;
+  background-color: #F0EEED;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 50;
+  border-radius: 10px;
+  height: 350px;
+  width: auto;
+}
+.dropdown-content a{
+  color:black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  font-size: 16px;
+  border-radius: 10px;
+}
+.dropdown-content a:hover{
+  background-color: #F0EEED;
+}
+.show {
+  display:block
+}
